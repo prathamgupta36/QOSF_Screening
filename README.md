@@ -1,16 +1,16 @@
 # QOSF Cohort 8 Screening
 
-# This repository contains my solution to the QOSF Screening Task. 
+This repository contains my solution to the QOSF Screening Task. 
 
-# The tasks are designed to
-# - find out if you have the skills necessary to succeed in our program.
-# - be doable with basic QC knowledge
-# - nothing should be too hard for you to quickly learn. 
-# - allow you to learn some interesting concepts of QC. 
-# - give you some choices depending on your interests.
+The tasks are designed to
+- find out if you have the skills necessary to succeed in our program.
+- be doable with basic QC knowledge
+- nothing should be too hard for you to quickly learn. 
+- allow you to learn some interesting concepts of QC. 
+- give you some choices depending on your interests.
 
 ## Introduction
-# The task I chose is Task 2 which is to find negative values where we are given a list of integer numbers, look for a negative number in the list. Consider an appropriate number of qubits and explain why your proposal is valid for all kinds of numbers in case.
+The task I chose is Task 2 which is to find negative values where we are given a list of integer numbers, look for a negative number in the list. Consider an appropriate number of qubits and explain why your proposal is valid for all kinds of numbers in case.
 
 # Find Negative Numbers in a List with Quantum Computing
 
