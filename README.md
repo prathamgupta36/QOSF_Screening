@@ -2,6 +2,10 @@
 
 This repository contains my solution to the QOSF Screening Task. 
 
+## NOTE
+### The solution for task 2 can be found in both Jupyter Notebook and Python format. 
+The solution in the Jupyter Notebook format contains the explanation and for the Python format, you can refer to [Solution Explanation](#solution) as that does not contain my full explanation.
+
 The tasks are designed to
 - find out if you have the skills necessary to succeed in our program.
 - be doable with basic QC knowledge
@@ -10,7 +14,7 @@ The tasks are designed to
 - give you some choices depending on your interests.
 
 ## Introduction
-The task I chose is Task 2 which is to find negative values where we are given a list of integer numbers, look for a negative number in the list. Consider an appropriate number of qubits and explain why your proposal is valid for all kinds of numbers in case.
+The task I chose is Task 2 which is to find negative values where we are given a list of integer numbers, and look for a negative number in the list. Consider an appropriate number of qubits and explain why your proposal is valid for all kinds of numbers in case.
 
 # Find Negative Numbers in a List with Quantum Computing
 
@@ -36,6 +40,7 @@ def find_negative_numbers(list_number: List[int]) -> bool:
 A = find_negative_numbers([1, -3, 2, 15])
 print(A)  # Output: True
 
+<a name="solution"></a>
 # Solution Explanation
 
 The code utilizes a quantum circuit to identify negative numbers within a given list. The quantum circuit operates as follows:
