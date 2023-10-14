@@ -38,7 +38,7 @@ print(A)  # Output: True
 
 # Solution Explanation
 
-Your code utilizes a quantum circuit to identify negative numbers within a given list. The quantum circuit operates as follows:
+The code utilizes a quantum circuit to identify negative numbers within a given list. The quantum circuit operates as follows:
 
 1. For each number in the list, a qubit is created.
 2. All qubits are placed in a superposition state.
@@ -67,6 +67,4 @@ Therefore, the quantum circuit accurately identifies whether there is a negative
 The quantum circuit is valid for all types of numbers because the Z gate's behavior is independent of the value of the number. The Z gate simply flips the state of the qubit, regardless of the numerical value.
 
 Hence, the quantum circuit can be employed to identify negative numbers in a list containing any kind of numbers, including integers, floating-point numbers, and complex numbers.
-
-
 
