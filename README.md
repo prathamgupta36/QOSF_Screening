@@ -3,7 +3,7 @@
 This repository contains my solution to the QOSF Screening Task. 
 
 ## NOTE
-### The solution for task 2 can be found in both Jupyter Notebook and Python format. 
+### The solution for task 2 can be found in both [Jupyter Notebook](./Task2.ipynb) and [Python](./task2_sol.py) format. 
 The solution in the Jupyter Notebook format contains the explanation and for the Python format, you can refer to [Solution Explanation](#solution) as that does not contain my full explanation.
 
 The tasks are designed to
