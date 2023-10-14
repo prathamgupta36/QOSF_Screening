@@ -36,5 +36,37 @@ def find_negative_numbers(list_number: List[int]) -> bool:
 A = find_negative_numbers([1, -3, 2, 15])
 print(A)  # Output: True
 
+# Solution Explanation
+
+Your code utilizes a quantum circuit to identify negative numbers within a given list. The quantum circuit operates as follows:
+
+1. For each number in the list, a qubit is created.
+2. All qubits are placed in a superposition state.
+3. For each number in the list, if the number is negative, a Z gate is applied to the corresponding qubit.
+4. All qubits are returned to a superposition state.
+5. The qubits are measured.
+6. If all measurement results are 0, there are no negative numbers in the list. Otherwise, there is at least one negative number in the list.
+
+## Correctness
+
+The quantum circuit's correctness is based on the properties of the Z gate:
+
+- Z |0⟩ = |1⟩
+- Z |1⟩ = |0⟩
+
+This implies that the Z gate flips the state of a qubit.
+
+In the quantum circuit, a Z gate is applied to a qubit if the corresponding number in the list is negative. This means that if there is at least one negative number in the list, then at least one qubit will be flipped after the Z gates are applied.
+
+When we measure the qubits, we will obtain at least one measurement result of 1 if there is at least one negative number in the list. Otherwise, we will receive all measurement results as 0.
+
+Therefore, the quantum circuit accurately identifies whether there is a negative number in the list.
+
+## Validity for All Kinds of Numbers
+
+The quantum circuit is valid for all types of numbers because the Z gate's behavior is independent of the value of the number. The Z gate simply flips the state of the qubit, regardless of the numerical value.
+
+Hence, the quantum circuit can be employed to identify negative numbers in a list containing any kind of numbers, including integers, floating-point numbers, and complex numbers.
+
 
 
