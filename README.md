@@ -1,5 +1,7 @@
 # QOSF Cohort 8 Screening
 
+![Qiskit](https://img.shields.io/badge/Qiskit-%236929C4.svg?style=for-the-badge&logo=Qiskit&logoColor=white)
+
 This repository contains my solution to the QOSF Screening Task. 
 
 ## NOTE
